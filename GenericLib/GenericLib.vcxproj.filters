@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{ff7f5078-a91a-4c06-8f76-d8254feb8d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{a4aee69a-d40a-46eb-866e-6eb6b54c469d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\ToString.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Generic\ToString.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InStream.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Generic\InStream.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\InStream.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

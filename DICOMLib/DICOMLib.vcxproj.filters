@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{b5e3204f-6697-4523-8e6b-89e46797b386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{dd4cbcc8-b0be-41ea-85a1-bd46e0b7eeda}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\DataElementDictionary.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DataElementTag.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ValueRepresentation.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InStream.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DataElementReader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\DataElementDictionary.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DataElementHeader.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DataElementTag.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ValueRepresentation.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DICOM\DataElementHeader.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DICOM\DataElementTag.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DICOM\ValueRepresentation.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InStream.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DICOM\InStream.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DICOM\DataElementReader.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DataElementReader.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
